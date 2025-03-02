@@ -3,96 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Raport verificare ortografică</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Prezentare Proiect</title>
 </head>
 <body>
-    <header>
-        <h1>Raport verificare ortografică</h1>
-        <div class="info-document">
-            <p><strong>Document:</strong> <span id="nume-document">Nume Document</span></p>
-            <p><strong>Metadate CSV:</strong> <span id="data-verificare"></span></p>
-            <p><strong>Total greșeli:</strong> <span id="total-greseli">0</span></p>
-        </div>
-    </header>
-
-    <div class="container">
-        <div class="filters">
-            <h2>Filtrare</h2>
-            <div class="filter-group">
-                <label for="filter-text">Căutare text:</label>
-                <input type="text" id="filter-text" placeholder="Caută în toate câmpurile...">
-            </div>
-            <div class="filter-group">
-                <label for="filter-line">Filtrare după linie:</label>
-                <select id="filter-line">
-                    <option value="">Toate liniile</option>
-                </select>
-            </div>
-            <div class="filter-group">
-                <button id="btn-export-pdf">Exportă PDF</button>
-                <button id="btn-export-csv">Exportă CSV</button>
-            </div>
-        </div>
-
-        <div class="results">
-            <h2>Greșeli identificate</h2>
-            <div class="statistics">
-                <div class="stat-box">
-                    <h3>Statistici</h3>
-                    <canvas id="stats-chart"></canvas>
-                </div>
-            </div>
-            <div class="errors-table-container">
-                <table id="errors-table">
-                    <thead>
-                        <tr>
-                            <th>Linie</th>
-                            <th>Poziție</th>
-                            <th>Cuvânt greșit</th>
-                            <th>Sugestii</th>
-                            <th>Context</th>
-                            <th>Acțiuni</th>
-                        </tr>
-                    </thead>
-                    <tbody id="errors-body">
-                        <!-- Aici vor fi adăugate dinamic rândurile cu greșeli -->
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-
-    <footer>
-        <p>&copy; 2025 Verificator Ortografic Românesc | Generat automat</p>
-    </footer>
-
-    <!-- Template pentru afișarea contextuală a greșelilor -->
-    <template id="error-row-template">
-        <tr class="error-row">
-            <td class="line-number"></td>
-            <td class="position"></td>
-            <td class="misspelled-word"></td>
-            <td class="suggestions"></td>
-            <td class="context"></td>
-            <td class="actions">
-                <button class="btn-ignore">Ignoră</button>
-                <button class="btn-details">Detalii</button>
-            </td>
-        </tr>
-    </template>
-
-    <!-- Modal pentru detalii -->
-    <div id="error-modal" class="modal">
-        <div class="modal-content">
-            <span class="close">&times;</span>
-            <h2>Detalii greșeală</h2>
-            <div id="error-details"></div>
-        </div>
-    </div>
-
-    <!-- Încărcare scripturi -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js"></script>
-    <script src="script.js"></script>
+    <h1>Proiectul meu</h1>
+    <img src="../docs/prezentare1.png" alt="Prezentare 1">
+    <img src="../docs/prezentare2.png" alt="Prezentare 2">
 </body>
 </html>
