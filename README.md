@@ -21,4 +21,39 @@
 
 ## 🗂️ Structura proiectului
 
+docs\prezentare1.png
+docs\prezentare2.png
+docs\prezentare3.png
+docs\prezentare4.png
+romanian_spelling_dictionary
+romanian_spelling_dictionary\ro.dia
+romanian_spelling_dictionary\ro.dic
+romanian_spelling_dictionary\romanian_spelling_dictionary.7z
+static
+static\greseli.csv
+static\raport_tehnic.html
+static\script.js
+static\style.css
+fisa.docx
+README.md
+requirements.txt
+romanian spelling verifier.py
+
+
+## Imagini
+
+### Prezentare 1
+
 ![Prezentare 1](docs/prezentare1.png)
+
+### Prezentare 2
+
+![Prezentare 2](docs/prezentare2.png)
+
+### Prezentare 3
+
+![Prezentare 3](docs/prezentare3.png)
+
+### Prezentare 4
+
+![Prezentare 4](docs/prezentare4.png)
