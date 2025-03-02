@@ -21,23 +21,24 @@
 
 ## 🗂️ Structura proiectului
 
-docs\prezentare1.png
-docs\prezentare2.png
-docs\prezentare3.png
-docs\prezentare4.png
-romanian_spelling_dictionary
-romanian_spelling_dictionary\ro.dia
-romanian_spelling_dictionary\ro.dic
-romanian_spelling_dictionary\romanian_spelling_dictionary.7z
-static
-static\greseli.csv
-static\raport_tehnic.html
-static\script.js
-static\style.css
-fisa.docx
-README.md
-requirements.txt
-romanian spelling verifier.py
+📁 docs/
+    📄 prezentare1.png
+    📄 prezentare2.png
+    📄 prezentare3.png
+    📄 prezentare4.png
+📁 romanian_spelling_dictionary/
+    📄 license.md
+    📄 ro.dia
+    📄 ro.dic
+📁 static/
+    📄 greseli.csv
+    📄 script.js
+    📄 style.css
+    📄 template.html
+📄 fisa.docx
+📄 README.md
+📄 requirements.txt
+📄 romanian spelling verifier.py
 
 
 ## Imagini
