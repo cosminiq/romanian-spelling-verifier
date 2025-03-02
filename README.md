@@ -21,3 +21,4 @@
 
 ## 🗂️ Structura proiectului
 
+![Prezentare 1](docs/prezentare1.png)
